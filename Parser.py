@@ -283,43 +283,29 @@ if __name__ == "__main__":
                 "https://www.24heures.ch/tour-de-romandie-des-perturbations-sur-les-routes-vaudoises-711758956582",
                 "https://www.24heures.ch/editorial-tout-un-canton-vibre-de-nouveau-pour-le-lhc-644187193751",
             ],
-        parse_breakinglatest_news:
-            [
-                "https://www.breakinglatest.news/world/operation-praetorian-mp-requests-preventive-detention-for-madureira-and-polaco-public-ministry-2041/",
-                "https://www.breakinglatest.news/news/sharing-open-opportunities-and-creating-a-better-life-together-written-on-the-occasion-of-the-upcoming-opening-of-the-4th-consumer-expo-xinhuanet-client/",
-                "https://www.breakinglatest.news/entertainment/well-known-harry-potter-bridge-will-soon-be-renovated-we-respect-its-historical-significance/",
-                "https://www.breakinglatest.news/health/reflux-many-false-myths-about-taboo-foods-gastroenterology/",
-                "https://www.breakinglatest.news/news/pnc-guarantees-security-and-prevention-of-violence-in-schools/",
-                "https://www.breakinglatest.news/entertainment/the-mysteries-of-the-etoile-bar-a-tragicomedy-that-works-halfway/",
-                "https://www.breakinglatest.news/technology/apple-app-store-backend-bug-shows-developers-millions-of-dollars-in-revenue-2/",
-                "https://www.breakinglatest.news/world/udinese-news-the-first-news-on-thauvin-heres-when-he-will-return/",
-                "https://www.breakinglatest.news/sports/the-green-jacket-that-all-golfers-want/",
-                "https://www.breakinglatest.news/health/new-large-scale-study-reveals-surprising-health-effects-of-garlic/",
-                "https://www.breakinglatest.news/business/imf-on-ecb-day-the-inflation-rate-warning-to-central-banks-dont-be-in-a-hurry-to-cut/",
+        # parse_breakinglatest_news:
+        #     [
+        #         "https://www.breakinglatest.news/news/hall-of-fame-hopes-analyzing-the-pro-football-class-of-2025s-top-contenders-and-controversies/",
+        #         "https://www.breakinglatest.news/business/intels-5-billion-vote-of-confidence-strategic-turnaround-or-industry-gamble/",
+        #         "https://www.breakinglatest.news/news/hall-of-fame-hopes-analyzing-the-pro-football-class-of-2025s-top-contenders-and-controversies/",
+        #         "https://www.breakinglatest.news/news/taylor-swift-takes-a-stand-the-childless-cat-lady-strikes-back-at-political-commentary/",
+        #
+        #     ],
 
-            ],
-
-        parse_chiswick_calendar:
-            [
-                "https://chiswickcalendar.co.uk/2024-sw-london-assembly-elections-interview-with-liberal-democrat-candidate-gareth-roberts/",
-                "https://chiswickcalendar.co.uk/thames-tradesmen-win-bronze-at-masters-head-of-the-river-race/",
-                "https://chiswickcalendar.co.uk/the-old-pack-horse-reopens-after-refurbishment/",
-                "https://chiswickcalendar.co.uk/cache-of-paintings-of-chiswick-found-painted-by-once-celebrated-artist-heather-jenkins/",
-                "https://chiswickcalendar.co.uk/iran-international-journalist-stabbed-outside-london-home/",
-
-            ],
+        # parse_chiswick_calendar:
+        #     [
+        #         "https://chiswickcalendar.co.uk/hounslow-council-considers-return-to-using-glyphosate-weedkiller/",
+        #         "https://chiswickcalendar.co.uk/great-british-elms-mark-seddon-and-david-shreeve-book-review/",
+        #         "https://chiswickcalendar.co.uk/belmont-primary-school-want-police-to-protect-their-children/",
+        #
+        #     ],
 
         parse_corriere:
             [
-                "https://www.corriere.it/esteri/24_aprile_08/zaporizhzhia-esperti-copertura-centrale-puo-resistere-a-impatto-aereo-73c57a44-f5e5-11ee-82ba-27cf75319ae5.shtml",
-                "https://milano.corriere.it/notizie/cronaca/24_aprile_12/daniela-santanche-seconda-accusa-dei-pm-alla-ministra-del-turismo-ha-falsificato-i-bilanci-di-visibilia-1fe55b28-336a-404c-a33d-103dd7fcfxlk.shtml",
-                "https://www.corriere.it/sport/24_aprile_12/kate-antropova-volley-paola-egonu-intervista-67a115b6-f833-11ee-95a0-2c72581cb5a3.shtml",
-                "https://roma.corriere.it/notizie/politica/24_aprile_12/diffamazione-blitz-di-fdi-si-al-carcere-per-i-giornalisti-ma-il-centrodestra-si-spacca-45d7386d-07ad-499e-b4ae-1e02be5e5xlk.shtml",
-                "https://www.corriere.it/economia/finanza/24_aprile_12/argento-e-oro-ai-massimi-cosa-succede-alle-quotazioni-dei-metalli-preziosi-4fcc7a59-1015-47f6-9ecd-ffc662c2cxlk.shtml",
-                "https://www.corriere.it/salute/pediatria/24_aprile_12/mal-di-testa-negli-adolescenti-quali-possono-essere-le-cause-e-come-intervenire-d00c2f4d-fd37-4d1b-b199-0e220455fxlk.shtml",
-                "https://www.corriere.it/esteri/24_aprile_11/famiglia-haniyeh-figli-martiri-quelli-con-lui-esilio-dorato-qatar-8339d3a8-f7e8-11ee-95a0-2c72581cb5a3.shtml",
-                "https://www.corriere.it/sport/tennis/cards/chi-holger-rune-avversario-sinner-montecarlo/nuova-sfida-rune-sinner_principale.shtml",
-                "https://www.corriere.it/economia/finanza/24_aprile_11/bce-tassi-invariati-4-50-ma-si-prepara-il-taglio-con-piu-certezze-sull-inflazione-50f16a1a-92ca-45e9-b0b2-a50958367xlk.shtml",
+                "https://www.corriere.it/oriente-occidente-federico-rampini/24_ottobre_02/gli-usa-e-la-questione-iran-irrisolta-dal-1979-repubblicani-e-democratici-divisi-sull-accordi-con-teheran-8174894d-01e6-4496-8afe-4c4eb00a2xlk.shtml",
+                "https://corrieredelveneto.corriere.it/notizie/venezia-mestre/cronaca/24_ottobre_02/filippo-turetta-l-elenco-dei-buoni-propositi-prima-di-uccidere-giulia-cecchettin-apprezzare-la-vita-provare-tinder-andare-a-un-concerto-d6b1055b-e366-4f9a-9eb3-0165b7113xlk.shtml",
+                "https://roma.corriere.it/notizie/cronaca/24_ottobre_02/ior-vaticano-licenziati-dipendenti-sposati-ricorso-7aa4aee1-0c0f-454d-89fc-892d8b0e4xlk.shtml",
+                "https://www.corriere.it/economia/trasporti/aerei/24_ottobre_02/voli-cancellati-o-in-ritardo-il-boom-delle-agenzie-per-chiedere-i-risarcimenti-con-commissioni-fino-al-50-b3e0c43c-dd94-4ff5-a505-47f36e087xlk.shtml",
 
             ]
     }
