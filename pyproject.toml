@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "newscatcher"
+version = "0.1.0"
+description = ""
+authors = ["PIRomanCod <111997187+PIRomanCod@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scrapy = "^2.11.1"
+lxml = "^5.2.1"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.3"
+scrapy-splash = "^0.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
